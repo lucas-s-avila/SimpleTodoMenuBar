@@ -46,6 +46,14 @@ class TodoStore: ObservableObject {
         save()
     }
     
+    func move(from source: Int, to destination: Int) {
+        var updatedTodos = todos
+        let item = updatedTodos.remove(at: source)
+        updatedTodos.insert(item, at: destination > source ? destination - 1 : destination)
+        todos = updatedTodos
+        save()
+    }
+    
     private func save() {
         do {
             let data = try JSONEncoder().encode(todos)

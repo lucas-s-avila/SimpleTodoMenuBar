@@ -1,0 +1,11 @@
+{
+  "/Users/lucasavila/todo-app/Sources/Models/TodoItem.swift" : {
+    "abi-baseline-json" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar.abi.json",
+    "const-values" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary.swiftconstvalues",
+    "dependencies" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary.d",
+    "diagnostics" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary.dia",
+    "swiftdoc" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar.swiftdoc",
+    "swiftmodule" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar.swiftmodule",
+    "swiftsourceinfo" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar.swiftsourceinfo"
+  }
+}

@@ -18,6 +18,8 @@
     <string>APPL</string>
     <key>CFBundleExecutable</key>
     <string>TodoMenuBar</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
 </dict>
 </plist>
 

@@ -1,0 +1,36 @@
+{
+  "" : {
+    "const-values" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary.swiftconstvalues",
+    "dependencies" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary.d",
+    "diagnostics" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary.dia",
+    "emit-module-dependencies" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary-emit-module.dia",
+    "pch" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBar-primary.swiftdeps"
+  },
+  "/Users/lucasavila/todo-app/Sources/Models/TodoItem.swift" : {
+    "index-unit-output-path" : "/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoItem.o",
+    "llvm-bc" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoItem.bc",
+    "object" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoItem.o"
+  },
+  "/Users/lucasavila/todo-app/Sources/Stores/TodoStore.swift" : {
+    "index-unit-output-path" : "/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoStore.o",
+    "llvm-bc" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoStore.bc",
+    "object" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoStore.o"
+  },
+  "/Users/lucasavila/todo-app/Sources/TodoMenuBarApp.swift" : {
+    "index-unit-output-path" : "/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBarApp.o",
+    "llvm-bc" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBarApp.bc",
+    "object" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoMenuBarApp.o"
+  },
+  "/Users/lucasavila/todo-app/Sources/Views/ContentView.swift" : {
+    "index-unit-output-path" : "/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/lucasavila/todo-app/Sources/Views/TodoRowView.swift" : {
+    "index-unit-output-path" : "/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoRowView.o",
+    "llvm-bc" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoRowView.bc",
+    "object" : "/Users/lucasavila/todo-app/build/Build/Intermediates.noindex/TodoMenuBar.build/Release/TodoMenuBar.build/Objects-normal/arm64/TodoRowView.o"
+  }
+}

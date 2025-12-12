@@ -4,6 +4,7 @@ struct ContentView: View {
     @ObservedObject var store: TodoStore
     @State private var newTaskTitle = ""
     @FocusState private var isInputFocused: Bool
+    @State private var draggingFromIndex: Int?
     
     var body: some View {
         VStack(spacing: 0) {
@@ -40,12 +41,24 @@ struct ContentView: View {
             } else {
                 ScrollView {
                     LazyVStack(spacing: 2) {
-                        ForEach(store.todos) { todo in
+                        ForEach(Array(store.todos.enumerated()), id: \.element.id) { index, todo in
                             TodoRowView(
                                 todo: todo,
                                 onToggle: { store.toggle(todo) },
                                 onEdit: { newTitle in store.update(todo, title: newTitle) },
-                                onDelete: { store.delete(todo) }
+                                onDelete: { store.delete(todo) },
+                                index: index,
+                                onDragStarted: { sourceIndex in
+                                    draggingFromIndex = sourceIndex
+                                },
+                                onDropReceived: { destinationIndex in
+                                    if let sourceIndex = draggingFromIndex, sourceIndex != destinationIndex {
+                                        withAnimation {
+                                            store.move(from: sourceIndex, to: destinationIndex)
+                                        }
+                                    }
+                                    draggingFromIndex = nil
+                                }
                             )
                         }
                     }
